@@ -1,0 +1,71 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="levels\1.json" />
+      <EmbeddedResource Include="levels\1.json" />
+      <None Remove="levels\10.json" />
+      <EmbeddedResource Include="levels\10.json" />
+      <None Remove="levels\11.json" />
+      <EmbeddedResource Include="levels\11.json" />
+      <None Remove="levels\12.json" />
+      <EmbeddedResource Include="levels\12.json" />
+      <None Remove="levels\13.json" />
+      <EmbeddedResource Include="levels\13.json" />
+      <None Remove="levels\14.json" />
+      <EmbeddedResource Include="levels\14.json" />
+      <None Remove="levels\15.json" />
+      <EmbeddedResource Include="levels\15.json" />
+      <None Remove="levels\16.json" />
+      <EmbeddedResource Include="levels\16.json" />
+      <None Remove="levels\17.json" />
+      <EmbeddedResource Include="levels\17.json" />
+      <None Remove="levels\18.json" />
+      <EmbeddedResource Include="levels\18.json" />
+      <None Remove="levels\19.json" />
+      <EmbeddedResource Include="levels\19.json" />
+      <None Remove="levels\2.json" />
+      <EmbeddedResource Include="levels\2.json" />
+      <None Remove="levels\20.json" />
+      <EmbeddedResource Include="levels\20.json" />
+      <None Remove="levels\21.json" />
+      <EmbeddedResource Include="levels\21.json" />
+      <None Remove="levels\22.json" />
+      <EmbeddedResource Include="levels\22.json" />
+      <None Remove="levels\23.json" />
+      <EmbeddedResource Include="levels\23.json" />
+      <None Remove="levels\24.json" />
+      <EmbeddedResource Include="levels\24.json" />
+      <None Remove="levels\25.json" />
+      <EmbeddedResource Include="levels\25.json" />
+      <None Remove="levels\26.json" />
+      <EmbeddedResource Include="levels\26.json" />
+      <None Remove="levels\3.json" />
+      <EmbeddedResource Include="levels\3.json" />
+      <None Remove="levels\4.json" />
+      <EmbeddedResource Include="levels\4.json" />
+      <None Remove="levels\41.json" />
+      <EmbeddedResource Include="levels\41.json" />
+      <None Remove="levels\5.json" />
+      <EmbeddedResource Include="levels\5.json" />
+      <None Remove="levels\6.json" />
+      <EmbeddedResource Include="levels\6.json" />
+      <None Remove="levels\7.json" />
+      <EmbeddedResource Include="levels\7.json" />
+      <None Remove="levels\8.json" />
+      <EmbeddedResource Include="levels\8.json" />
+      <None Remove="levels\9.json" />
+      <EmbeddedResource Include="levels\9.json" />
+    </ItemGroup>
+
+</Project>

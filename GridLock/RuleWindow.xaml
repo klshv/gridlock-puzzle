@@ -1,0 +1,31 @@
+﻿<Window x:Class="GridLock.RuleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:GridLock"
+        mc:Ignorable="d"
+        Title="GridLock Puzzle"
+        Height="615" Width="615"
+        Padding="5"
+        ResizeMode="NoResize"
+        Background="Beige"
+        WindowStartupLocation="CenterOwner">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="80" />
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Text="Игроку предоставляется поле-сетка размером 6x6, на которой в различных комбинациях находятся прямоугольники разного размера и разной ориентации, прямоугольники можно перемещать только по сторонам 
+                            их ориентации, горизонтальные – по горизонтали, вертикальные – по вертикали.                                 
+                            Задача переместить основной прямоугольник к «выходу»." 
+                   TextAlignment="Center"
+                   TextWrapping="Wrap"
+                   FontSize="20"
+                   Margin="25"
+                   VerticalAlignment="Center"></TextBlock>
+        <Button Grid.Row="1" Content="Закрыть" Click="ButtonBase_OnClick"
+                Width="80"
+                Height="30"></Button>
+    </Grid>
+</Window>
